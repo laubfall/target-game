@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle fill="#ff3333" height="450.0" layoutX="132.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" translateZ="1.0" width="153.47021484375" />
+    <Text fill="WHITE" layoutX="148.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over!" translateZ="3.0">
+      <font>
+        <Font name="Arial" size="22.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text fill="WHITE" font="$x1" layoutX="150.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Score:" translateZ="10.0" />
+    <Button layoutX="180.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#again" text="Again" translateZ="3.0" />
+    <Button layoutX="187.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#bye" text="Bye" translateZ="3.0" />
+    <Text fx:id="score" fill="WHITE" layoutX="186.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+      <font>
+        <Font name="Arial" size="16.0" />
+      </font>
+    </Text>
+  </children>
+</AnchorPane>

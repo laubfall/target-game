@@ -1,0 +1,20 @@
+.button {
+	-fx-background-color: rgb(255,0,0);
+	-fx-border-color: rgb(255,255,255);
+	-fx-border-width: 3px;
+	-fx-border-radius: 2px;
+	-fx-text-fill: rgb(255,255,255);
+}
+
+
+/* 
+ * TARGET
+ * 
+ */
+#hitTime {
+	-fx-fill: rgb(255,0,0);
+}
+
+#miss {
+	-fx-fill: rgb(255,0,0);
+}

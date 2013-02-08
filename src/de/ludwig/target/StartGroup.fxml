@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="450.0" layoutX="122.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="163.0" />
+    <Text id="" fill="WHITE" layoutX="154.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Running in circles" textAlignment="CENTER" wrappingWidth="100.0">
+      <font>
+        <Font name="Arial" size="22.0" />
+      </font>
+    </Text>
+    <Button fx:id="startButton" layoutX="176.0" layoutY="206.0" mnemonicParsing="false" onMouseClicked="#onStart" text="Start" />
+  </children>
+</AnchorPane>

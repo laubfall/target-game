@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <VBox id="box" prefHeight="450.0" prefWidth="400.0">
+      <children>
+        <Pane fx:id="scorePane" prefHeight="49.999900000002526" prefWidth="400.0">
+          <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff3333" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
+            <Text fx:id="playerScore" fill="WHITE" layoutX="108.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0">
+              <font>
+                <Font size="16.0" fx:id="x1" />
+              </font>
+            </Text>
+            <Text fx:id="currentLevel" fill="WHITE" font="$x1" layoutX="360.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text id="currentLevel" fill="WHITE" font="$x1" layoutX="247.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Level:" />
+            <Text id="playerScore" fill="WHITE" layoutX="17.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Score:">
+              <font>
+                <Font name="Arial" size="16.0" />
+              </font>
+            </Text>
+          </children>
+        </Pane>
+        <Pane fx:id="playPane" prefHeight="400.0" prefWidth="400.0" />
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>
